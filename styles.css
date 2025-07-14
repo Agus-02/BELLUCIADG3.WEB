@@ -110,14 +110,14 @@ body {
 }
 
 .nav-link {
-  color: var(--dark-color);
+  color: var(--white);
   font-weight: 500;
   margin-left: 20px;
   transition: color 0.3s;
 }
 
 .nav-link:hover {
-  color: var(--primary-color);
+  color: var(--btn-color);
 }
 
 /* 4. HERO */
