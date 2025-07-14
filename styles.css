@@ -42,6 +42,15 @@ body {
   background-repeat: no-repeat;
 }
 
+.seccion-vinito {
+  background-color: #1a1a1a; /* o el color que quieras */
+  /* también podés poner una imagen */
+  background-image: url('Assets/HOME.fotos/background.hombreuva-13.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 /* Cambia el color del texto solo en la sección de planes SUSCRIPCIONES */
 .planes-bg {
   color: rgb(0, 0, 0);
@@ -72,6 +81,13 @@ body {
   color: rgb(255, 255, 255);
   margin-right: auto;
   font-size: 60px;
+}
+
+.text-vino {
+  color: #2a0505 !important; /* o el color que quieras */
+  font-size: 60px;
+  font-weight: 400px
+  ;
 }
 
 
