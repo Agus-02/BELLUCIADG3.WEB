@@ -55,9 +55,20 @@ body {
   color: rgb(101, 0, 0);
   font-size: 20px;
 }
-.planes-bg li,
+.price-white {
+  color: rgb(255, 255, 255);
+  margin-right:auto;
+  font-size: 80px;
+}
+.planes-bg li {
+  color: rgb(255, 255, 255);
+  margin-left: auto;
+  font-size: 20px;
+}
 .planes-bg h5 {
   color: rgb(255, 255, 255);
+  margin-right: auto;
+  font-size: 60px;
 }
 
 
@@ -233,14 +244,30 @@ form .form-control {
   border: 1px solid #ced4da;
 }
 
-form button.btn-primary {
+/* BOTONES GENERALES */
+.btn-primary {
   background-color: var(--btn-color);
-  color: #000000;
+  color: #000;
   border: none;
-  width: 100%;
   border-radius: 0px;
-  margin-top: 20px;
+  padding: 10px 30px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
 }
+
+.btn-primary:hover {
+  background-color: #92b800; /* más oscuro para hover */
+  color: #fff;
+}
+
+/* BOTONES SOLO DENTRO DE FORMULARIOS */
+form button.btn-primary {
+  width: 100%;
+  border-radius: 0px; /* más cuadrado */
+  margin-top: 20px;
+  /* No hace falta repetir color ni background, ya lo toma del anterior */
+}
+
 
 /* 9. FOOTER */
 footer {
