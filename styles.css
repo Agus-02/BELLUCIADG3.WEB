@@ -47,11 +47,17 @@ body {
   color: rgb(0, 0, 0);
 }
 
-.planes-bg h2,
-.planes-bg p,
+.planes-bg h2{
+  color: rgb(101, 0, 0);
+  font-size: 60px;
+}
+.planes-bg p {
+  color: rgb(101, 0, 0);
+  font-size: 20px;
+}
 .planes-bg li,
 .planes-bg h5 {
-  color: rgb(91, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 
@@ -171,6 +177,21 @@ section h2 {
   font-size: 1.25rem;
   font-weight: 600;
   color: var(--dark-color);
+}
+
+.card-duke {
+  background-color: #004335;
+  color: #ffffff;
+}
+
+.card-king {
+  background-color: #640e0e;
+  color: #ffffff;
+}
+
+.card-prince {
+  background-color: #13200e;
+  color: #ffffff;
 }
 
 .masonry__container {
