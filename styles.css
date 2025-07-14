@@ -266,7 +266,7 @@ form .form-control {
 /* BOTONES GENERALES */
 .btn-primary {
   background-color: var(--btn-color);
-  color: #000;
+  color: #000 !important;
   border: none;
   border-radius: 0px;
   padding: 10px 30px;
