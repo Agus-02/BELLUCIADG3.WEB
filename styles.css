@@ -55,15 +55,18 @@ body {
   color: rgb(101, 0, 0);
   font-size: 20px;
 }
-.price-white {
-  color: rgb(255, 255, 255);
-  margin-right:auto;
-  font-size: 80px;
+.planes-white{
+  color: rgb(255, 255, 255) !important;
+  text-align: left;
+  margin-left: 10px;
+  font-size: 60px!important;
 }
+
 .planes-bg li {
   color: rgb(255, 255, 255);
-  margin-left: auto;
+  text-align: left;
   font-size: 20px;
+  margin-left: 10px;
 }
 .planes-bg h5 {
   color: rgb(255, 255, 255);
