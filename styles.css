@@ -43,7 +43,7 @@ body {
 }
 
 .limite-pack {
-  max-width: 960px;
+  max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -358,6 +358,25 @@ form button.btn-primary {
   font-style: italic;
   padding-top: 0.5rem;
 }
+
+.accordion-button:not(.collapsed)
+{
+  background-color: transparent !important;
+  color: #fff !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid #ccc;
+}
+
+.accordion-button:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.2); /* leve glow rojo vino */
+  border-bottom: 1px solid #8b0000;
+  transition: all 0.3s ease;
+}
+.accordion-button:not(.collapsed) {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.15);
+
+
 
                     /*FIN ACCORDION PREGUNTAS */
 
