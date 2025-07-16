@@ -368,12 +368,12 @@ img.rounded-circle {
 }
 
 .bg-overlay-light {
-  background-color: rgba(255,255,255,0.7);
-  backdrop-filter: blur(5px);
+  background-color:none!important;
+  backdrop-filter: none!important;
 }
 
 .bg-overlay-dark {
-  backdrop-filter: blur(5px);
+  backdrop-filter: none !important;
   color: #fff;
 }
 
