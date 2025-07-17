@@ -110,10 +110,13 @@ body {
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
 }
 
-.navbar-brand {
-  font-weight: 600;
-  font-size: 1.7rem;
-  color: var(--dark-color);
+.navbar-brand img {
+  max-height: 60px;
+  transition: max-height 0.3s ease;
+}
+
+.navbar.scrolled .navbar-brand img {
+  max-height: 40px;
 }
 
 .nav-link {
@@ -127,7 +130,25 @@ body {
   color: var(--btn-color);
 }
 
+.navbar.scrolled {
+  background-color: #000000;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  padding: 5px 0; /* achicás la altura */
+}
+
+
 /* 4. HERO */
+
+.hero-section {
+  background-image: url('Assets/HOME.fotos/web\ hero.png'); /* reemplazá por la ruta real */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 6rem 0; /* o lo que ya tengas */
+  position: relative;
+}
+
 .row.p-5 {
   min-height: 90vh;
   display: flex;
@@ -425,25 +446,68 @@ form button.btn-primary {
 
 
 /* 9. FOOTER */
-footer {
-  background-color: var(--dark-color);
-  color: #ffffff;
-  font-size: 0.9rem;
-}
-
 .footer-section {
-  background-color: #111; /* por si la imagen no carga */
+  background-size: cover; /* que cubra todo el espacio */
+  background-repeat: no-repeat;
+  background-position: center;
   font-size: 0.95rem;
+  min-height: 400px; 
 }
 
 .footer-section h5, .footer-section h6 {
-  font-family: 'Instrument Serif', serif;
+  font-family:var(--font-family-inter)
 }
 
 .footer-section a:hover {
   text-decoration: underline;
   color: #a5e000; /* efecto suave en hover */
 }
+
+/* Botón Scroll to Top */
+.scroll-top-btn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #a5e000;
+  color: white;
+  border: none;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  transition: all 0.3s ease;
+}
+
+.scroll-top-btn.show {
+  display: flex;
+}
+
+.scroll-top-btn:hover {
+  background-color: #92cd00;
+}
+
+footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.footer-copy {
+  font-size: 1rem;         /* un poco más chico */
+  padding-top: 0.3rem;        /* menos espacio arriba */
+  padding-bottom: 1rem;       /* o incluso 0.5rem si querés más compacto */
+  color: #ccc;
+}
+
+.footer-logo {
+  max-width: 120px;
+  height: auto;
+  display: block;
+}
+
+
 
 
 /* 10. IMÁGENES */
