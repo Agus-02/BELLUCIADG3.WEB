@@ -538,7 +538,7 @@ footer {
   font-size: 1rem;         /* un poco más chico */
   padding-top: 0.3rem;        /* menos espacio arriba */
   padding-bottom: 1rem;       /* o incluso 0.5rem si querés más compacto */
-  color: #ccc;
+  color: #000000;
 }
 
 .footer-logo {
@@ -546,6 +546,26 @@ footer {
   height: auto;
   display: block;
 }
+
+.footer-section {
+  background-image: url('Assets/HOME.fotos/background.section-09.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #111; /* Texto general del footer */
+}
+
+.footer-section a {
+  color: #111; /* Links en negro */
+}
+
+.footer-section a:hover {
+  color: #000; /* Hover más oscuro */
+  text-decoration: underline;
+}
+
+
+
 
 
 
