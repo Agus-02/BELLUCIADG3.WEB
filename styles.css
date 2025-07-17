@@ -431,6 +431,21 @@ footer {
   font-size: 0.9rem;
 }
 
+.footer-section {
+  background-color: #111; /* por si la imagen no carga */
+  font-size: 0.95rem;
+}
+
+.footer-section h5, .footer-section h6 {
+  font-family: 'Instrument Serif', serif;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+  color: #a5e000; /* efecto suave en hover */
+}
+
+
 /* 10. IMÁGENES */
 img.rounded-circle {
   border: 5px solid var(--light-color);
