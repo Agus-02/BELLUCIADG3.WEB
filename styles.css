@@ -141,7 +141,7 @@ body {
 
 /* 2. HERO SECTION */
 .hero-section {
-  background-image: url('Assets/HOME.fotos/mobile.hero2.png'); /* tu imagen horizontal */
+  background-image: url('Assets/HOME.fotos/webhero2-12.png'); /* tu imagen horizontal */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -152,7 +152,7 @@ body {
 /* Versión para celular */
 @media (max-width: 768px) {
   .hero-section {
-    background-image: url('Assets/HOME.fotos/mobile.hero.png'); /* imagen vertical para mobile */
+    background-image: url('Assets/HOME.fotos/mobile.hero2.png'); /* imagen vertical para mobile */
     background-position: center top; /* opcional */
   }
 }
